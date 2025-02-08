@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>INST377 Favorite Fruit Form</title>
+        <style>
+            body {
+                background-color: lightyellow;
+            }
+
+            input {
+                background-color: lightsteelblue;
+                color:darkorchid
+            }
+
+            .name {
+                margin: top 100px; ;
+                margin-bottom: -10px;
+                margin-left: 145px;
+                font-size: 30px;
+
+            }
+
+            .fruits {
+                margin-left: 50px;
+                font-size: 30px;
+            }
+
+            #SubmitButton {
+                margin-left: 270px;
+                margin-top: 50px;
+                color:red;
+            }
+
+           #SubmitButton:hover {
+                    color:green;
+                }
+
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Favorite Fruits Form</h1>
+        <form name ="Favorite Fruits Form" method="get" action="Lab02SucessForm.html">
+
+            <div class="name">
+            <lable for ="Name"> Name</lable>
+            <input type="text" id = " Name" required> 
+            </div>
+            <br>
+
+            <div class="fruits">
+            <lable for ="Favorite Fruit">Favorite Fruit</lable>
+            <input type="text" id = "Favorite Fruit" required>
+            </div>
+            <br>
+
+            <hr>
+            <label for="inquiryDate">InquiryDate</label>
+            <input type="datetime-local" id="inquiryDate" required>
+            <br>
+
+            <div class="SubmitButton">
+            <input type ="submit" id="SubmitButton">
+            </div>
+
+        </form>
+
+
+    </body>
+
+
+
+
+
+
+
+</html>
